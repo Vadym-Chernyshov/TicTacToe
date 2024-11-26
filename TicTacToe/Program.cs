@@ -150,7 +150,7 @@ namespace TicTacToe
                                           $"-----------\n" +
                                           $" {position_3_1} | {position_3_2} | {position_3_3}\n");
 
-                        Console.WriteLine($"{namePlayer} переміг");
+                        Console.WriteLine($"{namePlayer} переміг :-)");
                         break; //виходимо з циклу
                     }
                 }
