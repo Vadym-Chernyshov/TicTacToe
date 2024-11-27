@@ -31,7 +31,7 @@ namespace TicTacToe
 
             while (runningGame)
             {
-                //якщо на останній ітерації не визначений переможець, отримаємо нічию
+                //перевірка на нічию
                 if (maximumNumberOfMoves == 0)
                 {
                     Console.WriteLine("Нічия. Переможця нема");
